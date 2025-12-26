@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #fffae6;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.podcast-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.podcast-card {
+  background: #fff8e1;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1 1 calc(45% - 20px);
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#score {
+  margin-top: 15px;
+  font-weight: bold;
+}
